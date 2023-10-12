@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_app/DetailCashFlowPage.dart';
+import 'package:my_app/DetailCashFlowPage.dart';
 import 'package:flutter_datetime_picker/flutter_datetime_picker.dart';
 
 class TambahPengeluaranPage extends StatefulWidget {

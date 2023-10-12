@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_app/PengaturanPage.dart';
-import 'package:flutter_app/tambah_pemasukan_page.dart';
-import 'package:flutter_app/tambah_pengeluaran.dart';
-import 'package:flutter_app/DetailCashFlowPage.dart';
+import 'package:my_app/PengaturanPage.dart';
+import 'package:my_app/tambah_pemasukan_page.dart';
+import 'package:my_app/tambah_pengeluaran.dart';
+import 'package:my_app/DetailCashFlowPage.dart';
 import 'login_page.dart';
 import 'home_page.dart';
 

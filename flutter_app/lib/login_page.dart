@@ -15,7 +15,10 @@ class LoginPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Login Page'),
+        title: Text('MY APP'),
+        foregroundColor: Colors.black,
+        backgroundColor: Colors.transparent,
+        elevation: 0,
       ),
       body: Center(
         child: Padding(
@@ -23,7 +26,8 @@ class LoginPage extends StatelessWidget {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: <Widget>[
-              // Username Field
+              Image.asset('assets/your_logo.png', width: 100, height: 100),
+              SizedBox(height: 60),
               TextFormField(
                 controller: usernameController,
                 decoration: InputDecoration(
